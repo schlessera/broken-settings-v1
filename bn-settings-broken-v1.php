@@ -30,6 +30,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
+// Remember plugin root folder.
 if ( ! defined( 'AS_BROKEN_SETTINGS_1_DIR' ) ) {
 	define( 'AS_BROKEN_SETTINGS_1_DIR', plugin_dir_path( __FILE__ ) );
 }
@@ -40,4 +41,5 @@ if ( file_exists( AS_BROKEN_SETTINGS_1_DIR . 'vendor/autoload.php' ) ) {
 }
 
 // Initialize the plugin.
-BrokenSettings1::get_instance()->run();
+$plugin = new BrokenSettings1();
+$plugin->init();

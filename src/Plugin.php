@@ -20,29 +20,9 @@ namespace AlainSchlesser\BrokenSettings1;
 class Plugin {
 
 	/**
-	 * Static instance of the plugin.
-	 *
-	 * @var Plugin
-	 */
-	protected static $instance;
-
-	/**
-	 * Get a reference to the Plugin instance.
-	 *
-	 * @return Plugin
-	 */
-	public static function get_instance() {
-		if ( ! self::$instance ) {
-			self::$instance = new self();
-		}
-
-		return self::$instance;
-	}
-
-	/**
 	 * Launch the initialization process.
 	 */
-	public function run() {
+	public function init() {
 		add_action( 'init', [ $this, 'init_settings_page' ] );
 	}
 
