@@ -1,10 +1,10 @@
 # Example Code: Settings Page - Broken Implementation v1
 
-*__This example code is part of the article: [Using A Config To Write Reusable Code](https://www.alainschlesser.com/using-a-config-to-make-code-reusable/)__*
+*__This example code is part of the article: [Using A Config To Write Reusable Code](https://www.alainschlesser.com/config-files-for-reusable-code/)__*
 
 This is a very naïve "OOP" implementation of a settings page using the WordPress Settings API.
 
-To test this plugin yourself, clone the repository into a `wp-content/plugins` folder of a WordPress installation, and run the command `composer install` from within the plugin's folder to generate the autoloader. You should then be able to activate the plugin and get access to the generated settings page via `Settings` &arr; `as-settings-broken-v1`.
+To test this plugin yourself, clone the repository into a `wp-content/plugins` folder of a WordPress installation, and run the command `composer install` from within the plugin's folder to generate the autoloader. You should then be able to activate the plugin and get access to the generated settings page via `Settings` &rarr; `as-settings-broken-v1`.
 
 ![Subpage appearing in the Settings menu](assets/images/screenshot-options-menu.png)
 

@@ -1,6 +1,11 @@
 <?php
 /**
- * Example Code: Settings Page - Broken Implementation v1
+ * Example Code: Settings Page - Broken Implementation v1.
+ *
+ * This code is part of the article "Using A Config To Write Reusable Code"
+ * as published on https://www.alainschlesser.com/.
+ *
+ * @see       https://www.alainschlesser.com/config-files-for-reusable-code/
  *
  * @package   AlainSchlesser\BrokenSettings1
  * @author    Alain Schlesser <alain.schlesser@gmail.com>
@@ -10,9 +15,9 @@
  *
  * @wordpress-plugin
  * Plugin Name: AS Settings - Broken v1
- * Plugin URI:  https://www.alainschlesser.com/
+ * Plugin URI:  https://www.alainschlesser.com/config-files-for-reusable-code/
  * Description: Example Code: Settings Page - Broken Implementation v1
- * Version:     0.1.0
+ * Version:     0.1.1
  * Author:      Alain Schlesser
  * Author URI:  https://www.alainschlesser.com/
  * Text Domain: as-settings-broken-v1
@@ -41,5 +46,4 @@ if ( file_exists( AS_BROKEN_SETTINGS_1_DIR . 'vendor/autoload.php' ) ) {
 }
 
 // Initialize the plugin.
-$plugin = new BrokenSettings1();
-$plugin->init();
+( new BrokenSettings1() )->init();

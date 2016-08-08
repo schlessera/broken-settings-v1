@@ -1,6 +1,11 @@
 <?php
 /**
- * Broken Settings v1 SettingsPage Class.
+ * Example Code: Settings Page - Broken Implementation v1.
+ *
+ * This code is part of the article "Using A Config To Write Reusable Code"
+ * as published on https://www.alainschlesser.com/.
+ *
+ * @see       https://www.alainschlesser.com/config-files-for-reusable-code/
  *
  * @package   AlainSchlesser\BrokenSettings1
  * @author    Alain Schlesser <alain.schlesser@gmail.com>
@@ -13,6 +18,8 @@ namespace AlainSchlesser\BrokenSettings1;
 
 /**
  * Class SettingsPage.
+ *
+ * This class registers a settings page via the WordPress Settings API.
  *
  * @package AlainSchlesser\BrokenSettings1
  * @author  Alain Schlesser <alain.schlesser@gmail.com>
