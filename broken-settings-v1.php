@@ -14,10 +14,10 @@
  * @copyright 2016 Alain Schlesser
  *
  * @wordpress-plugin
- * Plugin Name: AS Settings - Broken v1
+ * Plugin Name: Broken Settings v1
  * Plugin URI:  https://www.alainschlesser.com/config-files-for-reusable-code/
  * Description: Example Code: Settings Page - Broken Implementation v1
- * Version:     0.1.1
+ * Version:     0.2.0
  * Author:      Alain Schlesser
  * Author URI:  https://www.alainschlesser.com/
  * Text Domain: as-settings-broken-v1
